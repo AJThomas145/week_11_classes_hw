@@ -22,7 +22,7 @@ public class WaterBottleTest {
         waterBottle.emptyTheContentsOfBottle();
         assertEquals(0, waterBottle.volume);
     }
-    
+
     @Test
     public void fillUpWaterBottle(){
         waterBottle.fillUpBottle();
